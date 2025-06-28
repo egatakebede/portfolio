@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2? family Poppins:wght@300;400;500;600; 700; 800;9008 display=swap');
+        
+  *{
+    color: #ededed;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #61676c;
+
+  }
+  .navbar{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ 
+  }
+  .header{
+    position:fixed; 
+    top:0;
+    left:0;
+    width:80%;  
+    padding: 5px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+
+.logo{
+    
+    font: size 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .3s;
+    width:25% ;
+    font-family: serif;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+.home{
+    box-shadow: none;
+    line-height: 2;
+    height: 80vh;
+    background: url('abiy2.jpg') no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background-size: cover;
+    background-position:right
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.home-content h3{
+    font-size:32px;
+    font-weight:700;
+    color: #00abf0;
+}
+
+.home-content p{
+    font-size: 16px;
+
+}
+.button{
+     
+    display: flex;
+    align-self: center;
+    gap: 100px;
+
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 10px;
+      outline-offset: none;
+      margin:0;
+}
+   
+.box {
+   
+    display: inline-flex;
+   align-items: center;
+    background: #00abf0;
+     padding: 5px 20px;
+     border: 10px;
+        font-size:20px;
+   text-decoration: none;
+     border-radius: 5px;
+     letter-spacing: 1px;
+     font-weight: bolder;
+     box-shadow: none;
+     color: #081b29;
+     border-color: #00abf0;
+  
+
+}
+.box1{
+   
+    display: inline-flex;
+   align-items: center;
+    background: transparent;
+     padding: 5px 20px;
+   text-decoration: none;
+           font-size:20px;
+     border-radius: 5px;
+     letter-spacing: 1px;
+     font-weight: bolder;
+     box-shadow: none;
+     border-color: #00abf0;
+    color: #00abf0;
+      border: 5px;
+   border-style: solid;
+   
+     
+  
+
+}
+.box:hover{
+    background: #ededed;
+    color: #00abf0;
+    transition: 0.5s;
+    border: #00abf0;
+    transition: background-color 1s;
+
+
+
+
+}
+.box1:hover{
+    background: #ededed;
+    color: #00abf0;
+    transition: 1s;
+    border: #00abf0;
+       border-style: groove;
+       
+
+
+}
+.home-sci {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom : 20px;
+    padding: 5px;
+    width: 300px;
+    color: #5312ce;
+            overflow: hidden;
+
+
+}
+   .home-sci a {
+    position: relative;
+    color: #00abf0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height:40px;
+    border: 2px solid #00abf0;
+    background: transparent;
+     border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+            overflow: hidden;
+            transition: 0.5;
+
+   
+
+   }
+   .home-sci a::before{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1;
+    transition: 0.3s;
+            overflow: hidden;
+
+
+   }
+
+      .home-sci a:hover::before{
+    width: 100%;
+      }
+git add .
+git commit -m "Your message"
+git push -u origin <branch-name>
+git pull origin <branch-name>
+
